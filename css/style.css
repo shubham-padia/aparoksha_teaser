@@ -1,3 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+.shuffle {
+  position: absolute;
+  top: 40vh;
+}
+#anim {
+  padding-top: 40vh;
+  padding-left:20vw;
+  width: 100%;
+  text-align: center;
+  margin: 15% auto;
+  font-family: 'Electrolize';
+  font-size: 4em;
+}
+
+#shuffle{
+  text-transform: ;
+  width: 100%;
+  text-align: center;
+  margin: 15% auto;
+  font-family: 'Electrolize';
+  font-size: 4em;
+}
+
 body {
   background-color: #272727;
   padding: 10px;
@@ -42,7 +66,7 @@ body {
   font-size: 1.7em;
   font-family: Ubuntu;
   font-weight: 500;
-  margin-left: 35vw;
+  margin-left: 35%;
   position: relative;
   top: 4px;
   left: 6px;
@@ -63,8 +87,8 @@ body {
 
 p {
   position: relative;
-  left: 13%;
-  margin-left: -8.5em;
+  left: 1%;
+  /*margin-left: -8.5em;*/
   text-align: left;
   font-size: 1.25em;
   font-family: monospace;
@@ -94,7 +118,7 @@ span {
 }
 
 .line2 {
-  color: #fff;
+  color: #9CD9F0;
   -webkit-animation: type .5s 4.25s steps(20, end) forwards;
   -moz-animation: type .5s 4.25s steps(20, end) forwards;
   -o-animation: type .5s 4.25s steps(20, end) forwards;
@@ -109,7 +133,7 @@ span {
 }
 
 .line3 {
-  color: #9CD9F0;
+  color: #fff;
   -webkit-animation: type .5s 7.5s steps(20, end) forwards;
   -moz-animation: type .5s 7.5s steps(20, end) forwards;
   -o-animation: type .5s 7.5s steps(20, end) forwards;
@@ -124,7 +148,7 @@ span {
 }
 
 .line4 {
-  color: #CDEE69;
+  color: #fff;
   -webkit-animation: type .5s 10.75s steps(20, end) forwards;
   -moz-animation: type .5s 10.75s steps(20, end) forwards;
   -o-animation: type .5s 10.75s steps(20, end) forwards;
@@ -137,6 +161,8 @@ span {
   -o-animation: blink 1s 8.5s infinite;
   animation: blink 1s 8.5s infinite;
 }
+
+
 
 @-webkit-keyframes blink {
   0% {
