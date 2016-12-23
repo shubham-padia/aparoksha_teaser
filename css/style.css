@@ -3,9 +3,15 @@
   position: absolute;
   top: 40vh;
 }
+.shuffle
+{
+  text-align: center;
+  margin : auto;
+}
 #anim {
+
   padding-top: 40vh;
-  padding-left:20vw;
+  padding-left:10vw;
   width: 100%;
   text-align: center;
   margin: 15% auto;
@@ -23,10 +29,33 @@
 }
 
 body {
-  background-color: #272727;
-  padding: 10px;
+  background-color: black ;
+  margin:0;
+  overflow: hidden;
+    /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
 }
+#Terminal
+{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  margin:0 auto;
+  padding:5%;
+  width:90%;
+  height:100vh;
+  z-index: 1000;
+  transition:all 2s linear;
+  -webkit-transition:all 2s linear;
 
+
+}
 .fakeButtons {
   height: 15px;
   width: 15px;
@@ -259,3 +288,33 @@ span {
     width: 80%;
   }
 }
+.page-home {
+  position: relative;
+}
+.page-home .img-wrapper {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+.page-home .img-wrapper .img {
+  cursor: pointer;
+  opacity: 0.1;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.page-home .img-wrapper .img:hover, .page-home .img-wrapper .img.active {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
