@@ -8,6 +8,9 @@ var str = '23-25 March - 2017';
 var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@$%&';
 var t;
 $('Terminal').style.display = 'none';
+document.getElementById('contact1').classList.add('show');
+document.getElementById('contact2').classList.add('show');
+
 var anim = function() {
   inc++;
   if (inc % 7 === 0 && out < str.length) {
